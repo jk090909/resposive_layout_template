@@ -1,0 +1,106 @@
+/* pc.css
+여기는 pc 화면
+*/
+
+body {
+    background: green;
+}
+
+header {
+    background: #000;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header #gnb {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+header #gnb > ul > li {
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+header #gnb > ul > li > a {
+    color: white;
+}
+
+#visual {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#visual > img {
+    width: 100%;
+}
+
+#main {
+    max-width: 1000px;
+    background: #ccc;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 2.5em;
+    font-weight: bold;
+}
+
+#main .about {
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    padding: 40px 20px 20px 20px;
+    float: left;
+}
+
+#main .location {
+    width: 50%;
+    height: 400px;
+    background: #efefef;
+    padding: 40px 20px 20px 20px;
+    float: left;
+}
+
+#main h2 {
+    margin-bottom: 1em;
+}
+
+#main .about small {
+    font-style: italic;
+}
+
+#main .info, aside .info {
+    /* outline: 1px solid red; */
+    margin-left: 20px;
+}
+
+aside {
+    background: #fff;
+    border-top: 1px solid #ccc;
+    padding: 40px 20px 20px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+aside > h2 {
+    margin-bottom: 1em;
+}
+
+aside h3 {
+    /* outline: 1px solid red; */
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin: 0 auto;
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
